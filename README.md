@@ -1,6 +1,6 @@
 # climb_jupyterlab_extension
 
-[![Github Actions Status](/workflows/Build/badge.svg)](/actions/workflows/build.yml)
+[![Build](https://github.com/tomneep/climb-jupyterlab-extension/actions/workflows/build.yml/badge.svg)](https://github.com/tomneep/climb-jupyterlab-extension/actions/workflows/build.yml)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh//main?urlpath=lab)
 
 A JupyterLab extension for CLIMB.
