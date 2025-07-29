@@ -13,7 +13,7 @@ function activate(
   palette: ICommandPalette,
   launcher: ILauncher | null
 ) {
-  console.log('JupyterLab extension jupyterlab_climb:plugin is activated!');
+  console.log('JupyterLab extension climb-jupyterlab-extension is activated!');
 
   // Command for CLIMB docs
   const open_docs_command: string = 'climb-docs:open';
