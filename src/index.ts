@@ -7,11 +7,11 @@ import { ICommandPalette } from '@jupyterlab/apputils';
 
 import { ILauncher } from '@jupyterlab/launcher';
 import { LabIcon } from '@jupyterlab/ui-components';
-import  cloudIconSvg from '../style/icons/cloud.svg';
+import cloudIconSvg from '../style/icons/cloud.svg';
 
 export const cloudIcon = new LabIcon({
-    name: 'climb-jupyterlab-extension:cloud_icon',
-    svgstr: cloudIconSvg
+  name: 'climb-jupyterlab-extension:cloud_icon',
+  svgstr: cloudIconSvg
 });
 
 function activate(
