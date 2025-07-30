@@ -6,7 +6,13 @@ import {
 import { ICommandPalette } from '@jupyterlab/apputils';
 
 import { ILauncher } from '@jupyterlab/launcher';
-import { jupyterIcon } from '@jupyterlab/ui-components';
+import { LabIcon } from '@jupyterlab/ui-components';
+import  cloudIconSvg from '../style/icons/cloud.svg';
+
+export const cloudIcon = new LabIcon({
+    name: 'climb-jupyterlab-extension:cloud_icon',
+    svgstr: cloudIconSvg
+});
 
 function activate(
   app: JupyterFrontEnd,
@@ -21,7 +27,7 @@ function activate(
   app.commands.addCommand(open_docs_command, {
     label: 'CLIMB Documentation',
     caption: 'CLIMB Documentation',
-    icon: jupyterIcon,
+    icon: cloudIcon,
     execute: () => {
       // Open link in new tab
       window.open('https://docs.climb.ac.uk');
